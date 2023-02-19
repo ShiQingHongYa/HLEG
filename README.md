@@ -8,9 +8,14 @@ Visual intention understanding is to mine the potential and subjective intention
 
 ![image](https://github.com/ShiQingHongYa/HLEG/blob/main/images/framework.png)
 
-## Results on Intentonomy:
+## Results on Intentonomy
 
 ![image](https://github.com/ShiQingHongYa/HLEG/blob/main/images/results.png)
+
+
+## Visualization
+
+![image](https://github.com/ShiQingHongYa/HLEG/blob/main/images/visual_levels.png)
 
 ## Quick start
 
@@ -42,4 +47,16 @@ python -m torch.distributed.launch --nproc_per_node=2 eval.py
     ├── training.py
     ├── eval.py
     ├── README.md
+```
+Reference
+
+If this work is useful to your research, please cite:
+
+```sh
+@article{shi2023hleg,
+  title={Learnable Hierarchical Label Embedding and Grouping for Visual Intention Understanding},
+  author={Shi, Qinghongya and Ye, Mang and Zhang, Ziyi and Du, Bo},
+  journal={IEEE Transactions on Affective Computing},
+  year={2023}
+}
 ```
