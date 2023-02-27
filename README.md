@@ -53,10 +53,11 @@ python -m torch.distributed.launch --nproc_per_node=2 eval.py
 If this work is useful to your research, please cite:
 
 ```sh
-@article{shi2023hleg,
+@article{shi2023learnable,
   title={Learnable Hierarchical Label Embedding and Grouping for Visual Intention Understanding},
-  author={Shi, Qinghongya and Ye, Mang and Zhang, Ziyi and Du, Bo},
+  author={Shi, QingHongYa and Ye, Mang and Zhang, Ziyi and Du, Bo},
   journal={IEEE Transactions on Affective Computing},
-  year={2023}
+  year={2023},
+  publisher={IEEE}
 }
 ```
