@@ -23,7 +23,7 @@ Training and evaluation are as follows:
 
 ```sh
 # training
-python -m torch.distributed.launch --nproc_per_node=2 training.py 
+python -m torch.distributed.launch --nproc_per_node=2 train.py 
 # evaluation
 python -m torch.distributed.launch --nproc_per_node=2 eval.py
 ```
